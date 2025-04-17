@@ -1,0 +1,135 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        background-color: #f0f2f5;
+        padding: 20px;
+    }
+
+    .main {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h2.message {
+        margin-top: 20px;
+        text-align: center;
+        color: green;
+    }
+
+    form {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    form input {
+        padding: 14px 18px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        transition: all 0.2s ease;
+    }
+
+    form input:focus {
+        outline: none;
+        border-color: #5e72e4;
+        box-shadow: 0 0 5px rgba(94, 114, 228, 0.3);
+    }
+
+    form button {
+        padding: 14px;
+        background: linear-gradient(to right, #5e72e4, #825ee4);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    form button:hover {
+        opacity: 0.9;
+        transform: scale(1.02);
+    }
+
+    .display-Stuudents {
+        max-width: 800px;
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        background-color: #ffffff;
+        border-radius: 16px;
+        padding: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+        transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-4px);
+    }
+
+    .card h3 {
+        font-size: 22px;
+        margin-bottom: 6px;
+        color: #333;
+    }
+
+    .card h4 {
+        font-size: 16px;
+        margin-bottom: 4px;
+        color: #666;
+    }
+
+    .card button {
+        margin-top: 10px;
+        margin-right: 10px;
+        padding: 8px 16px;
+        font-size: 14px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .card .edit {
+        background-color: #ffa500;
+        color: white;
+    }
+
+    .card .edit:hover {
+        background-color: #e69500;
+    }
+
+    .card .delete {
+        background-color: #ff4d4f;
+        color: white;
+    }
+
+    .card .delete:hover {
+        background-color: #d9363e;
+    }
+
+    input.edit-name-input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
